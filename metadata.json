@@ -1,0 +1,13 @@
+
+{
+  "name": "KidPoints",
+  "developer": "Vagesh Vaibhav",
+  "bundleId": "com.vageshvaibhav.kidpoints",
+  "version": "1.0.0",
+  "build": "100",
+  "description": "Premium reward management system for modern families. Built by Vagesh Vaibhav.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
