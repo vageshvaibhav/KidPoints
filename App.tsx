@@ -33,7 +33,7 @@ import {
   Moon,
   Sun,
   WifiOff,
-  CloudCheck,
+  Cloud,
   Share,
   SmartphoneNfc
 } from 'lucide-react';
@@ -90,7 +90,7 @@ const MobileContainer = ({ children, title, showBack, onBack, role, activeChild,
               {title || 'KidPoints'}
             </h1>
             <div className="flex items-center gap-1 opacity-40">
-              {isOnline ? <CloudCheck size={10} className="text-emerald-500" /> : <WifiOff size={10} className="text-rose-500" />}
+              {isOnline ? <Cloud size={10} className="text-emerald-500" /> : <WifiOff size={10} className="text-rose-500" />}
               <span className="text-[8px] font-black uppercase tracking-tighter dark:text-white">{isOnline ? 'Cloud Ready' : 'Offline Mode'}</span>
             </div>
           </div>
